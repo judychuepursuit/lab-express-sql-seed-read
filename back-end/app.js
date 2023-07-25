@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 });
 
 // Songs ROUTES
-const songsController = require("./controllers/SongController.js");
+const songsController = require("./controllers/songController.js");
 app.use("/songs", songsController);
 
 // 404 PAGE

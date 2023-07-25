@@ -3,10 +3,12 @@ CREATE DATABASE songs_dev;
 
 \c songs_dev;
 
+DROP TABLE IF EXISTS songs;
 CREATE TABLE songs (
  id SERIAL PRIMARY KEY,
  name TEXT NOT NULL,
- url TEXT,
- category TEXT,
+ artist TEXT,
+ album TEXT,
+ time TEXT,
  is_favorite BOOLEAN
 );

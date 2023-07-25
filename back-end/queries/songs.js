@@ -1,17 +1,36 @@
 const db = require("../db/dbConfig.js");
 
+// const getAllSongs = async () => {
+//     try {
+//       const allSongs = await db.any("SELECT * FROM songs");
+//       return allSongs;
+//     } catch (error) {
+//       return error;
+//     }
+// };
+
+// const getAllSongs = async () => {
+//   // console.log("Running getAllSongs function...")
+//   try {
+//     const allSongs = await db.any("SELECT * FROM songs");
+//     console.log("allSongs:")
+//     console.log(allSongs)
+//     return allSongs;
+//   } catch (error) {
+//     console.log("Caught error during getAllSongs function.")
+//     console.log(error)
+//     return error;
+//   }
+// };
+
 const getAllSongs = async () => {
-    try {
-      const allSongs = await db.any("SELECT * FROM songs");
-      return allSongs;
-    } catch (error) {
-      return error;
-    }
+  const allSongs = await db.any("SELECT * FROM songs");
+  return allSongs;
 };
 
 const getSong = async (id) => {
     try {
-      const oneSong = await db.oneOrNone("SELECT * FROM songs WHERE id=$1", id);
+      const oneSong = await db.one("SELECT * FROM songs WHERE id=$1", id);
       return oneSong;
     } catch (error) {
       return error;
