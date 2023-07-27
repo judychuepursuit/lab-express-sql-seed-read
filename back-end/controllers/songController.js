@@ -61,17 +61,18 @@ songs.delete("/:id", async (req, res) => {
   }
 });
 
-// UPDATE
-// songs.put("/:id", checkName, checkBoolean, validateURL, async (req, res) => {
-//   const { id } = req.params;
-//   const updatedSong = await updateSong(id, req.body);
-//   res.status(200).json(updatedSong);
-// });
-
-songs.put("/:id", checkName, checkArtist, checkBoolean, async (req, res) => {
+// UPDATE/PUT
+// added validateURL to work
+songs.put("/:id", checkName, checkBoolean, validateURL, async (req, res) => {
   const { id } = req.params;
   const updatedSong = await updateSong(id, req.body);
   res.status(200).json(updatedSong);
 });
+
+// songs.put("/:id", checkName, checkArtist, checkBoolean, async (req, res) => {
+//   const { id } = req.params;
+//   const updatedSong = await updateSong(id, req.body);
+//   res.status(200).json(updatedSong);
+// });
 
 module.exports = songs;

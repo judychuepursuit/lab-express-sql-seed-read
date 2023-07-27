@@ -31,5 +31,22 @@ const checkBoolean = (req, res, next) => {
         res.status(400).json({ error: "is_favorite must be a boolean value" });
     }
 };
+//  testing this w validate
+const validateURL = (req, res, next) => {
+    if (
+      req.body.url.substring(0, 7) === "http://" ||
+      req.body.url.substring(0, 8) === "https://"
+    ) {
+      next();
+    } else {
+      res
+        .status(400)
+        .json({ error: `You forgot to start your url with http:// or https://` });
+    }
+  };
 
-module.exports = { checkName, checkArtist, checkBoolean };
+module.exports = { 
+    checkName, 
+    checkArtist, 
+    checkBoolean
+};
