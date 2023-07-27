@@ -48,5 +48,6 @@ const validateURL = (req, res, next) => {
 module.exports = { 
     checkName, 
     checkArtist, 
-    checkBoolean
+    checkBoolean,
+    validateURL
 };
