@@ -30,7 +30,7 @@ src="back-end/img/Tuner-back-end-songs-pg.png" width="350"></img>
 <br>
         <li>BACKEND_URL: https://github.com/judychuepursuit/lab-express-sql-seed-read</li>
 <br>
-        <!-- <li>FRONTEND_URL: https://github.com/judychuepursuit/budget-app-front-2</li> -->
+        <li>Frontend_URL: https://github.com/judychuepursuit/tuner-front-app-2</li>
 
 <h2> This App applies the C-R-U-D points.</h2>
 <p>HTTP Methods: HTTP methods are also called verbs. They are types of requests you can make to a server. The four most common ones are listed below:</p>
