@@ -3,7 +3,7 @@ https://github.com/judychuepursuit
 <!DOCTYPE html>
 <html>
   <head>
-   <h1>👋🏻 Hello,  Welcome to Tuner App🎵 🎶</h1>
+   <h1>👋🏻 Hello,  Welcome to the Cool Tuner App🎵 🎶</h1>
 <h3>Project developed and designed  by Judy Chue</h3>
   </head>
   <body>
