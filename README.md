@@ -16,9 +16,11 @@ tuner-front-app
 <img alt="tuner-app-home-page" 
 src="back-end/img/Tuner-frnt-home pg.png" width="350"></img>
 <br> 
+<h3>Tuner-App Index-pg:<h3> 
 <img alt="tuner-app-index-page" 
 src="back-end/img/Tuner-frnt-index pg.png" width="350"></img>
 <br> 
+<h3>Tuner-Backend-App-pg:<h3> 
 <img alt="tuner-back-end-songs-page" 
 src="back-end/img/Tuner-back-end-songs-pg.png" width="350"></img>
 <br> 
