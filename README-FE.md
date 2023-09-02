@@ -1,102 +1,60 @@
-# Tuner Front-End
+https://github.com/judychuepursuit
 
-## Getting Started
+<!DOCTYPE html>
+<html>
+  <head>
+   <h1>👋🏻 Hello,  Welcome to Tuner App🎵 🎶</h1>
+<h3>Project developed and designed  by Judy Chue</h3>
+  </head>
+  <body>
+    <h1>The COOL-Tuner-App</h1>
+    <p>
+tuner-front-app is the frontend portion (REACT) that pairs with the lab-express-sql-seed-read backend portion (EXPRESS) for the Project named:
+tuner-front-app
 
-- keep the back-end running, open a new tab and navigate out of the back-end repository
-- `npx create-react-app@5 tuner-front-end`
+<h3>Tuner-App Home-pg:<h3> 
+<img alt="tuner-app-home-page" 
+src="back-end/img/Tuner-frnt-home pg.png" width="350"></img>
+<br> 
+<img alt="tuner-app-index-page" 
+src="back-end/img/Tuner-frnt-index pg.png" width="350"></img>
+<br> 
+<img alt="tuner-back-end-songs-page" 
+src="back-end/img/Tuner-back-end-songs-pg.png" width="350"></img>
+<br> 
 
-> _Note_: Remember to `git add`, `git commit` and `git push` regularly
+<h2> Here are the Github repository links: The COOL-tuner-app </h2>
+      <ul>
+<br>
+        <li>BACKEND_URL: https://github.com/judychuepursuit/lab-express-sql-seed-read</li>
+<br>
+        <!-- <li>FRONTEND_URL: https://github.com/judychuepursuit/budget-app-front-2</li> -->
 
-Using the [Tuner API that you built](https://github.com/joinpursuit/tuner-api/blob/main/README.md), you are going to create a frontend-only app.
-
-Don't forget to keep your back-end API running during this build.
-
-#### Nav Bar
-
-At the top of your app you should have a navigation bar.
-
-- It displays a links to the route (`/songs`) at the top of the page.
-
-Your app should also include the following routes:
-
-<hr />
-
-### `/songs`
-
-- Displays a list of `song.title`, `song.is_favorite`, `song.artist` and `song.time` that are clickable to take the user to **`/songs/:id`** IMPORTANT - be sure it goes to the song's `id` **NOT** the array position. Since we are now using a database you should use the `id`.
-- Has a button that takes users to the `/songs/new` view
-
-<details><summary>Inspiration</summary>
-
-![](./assets/index.png)
-
-</details>
-
-**IMPORTANT**
-
-Your page should
-
-### `/songs/:index`
-
-- Displays the details of each song
-  - name
-  - artist
-  - album
-  - is_favorite
-  - time
-- Displays two buttons
-
-  - <kbd>back</kbd>, takes the user back to the `/songs` view
-  - <kbd>delete</kbd>, deletes the log and takes the user back to the `/songs` view
-
-- button for `edit` - which takes the user to the edit form for this song
-
-<details><summary>Inspiration</summary>
-
-![](./assets/show.png)
-
-</details>
-
-### `/songs/new`
-
-- Displays a form with the following inputs and appropriate labels:
-
-  - name (text)
-  - artist (text)
-  - album (text)
-  - is_favorite (boolean)
-  - time (text)
-
-<details><summary>Inspiration</summary>
-
-![](./assets/new.png)
-
-</details>
-
-## Delete Functionality
-
-Make this functionality available on the show page
-
-## Edit Functionality
-
-Make a link to the edit form on the show page
-
-- Add an edit route `/songs/:id/edit`
-- Add an edit form that is pre-filled with the log to edit
-
-<details><summary>Inspiration</summary>
-
-![](./assets/edit.png)
-
-</details>
-
-### Bonuses
-
-- Style the app
-  - Look into the [holy grail layout](https://philipwalton.github.io/solved-by-flexbox/demos/holy-grail/)
-- It's annoying to have to use the edit form in order to update whether a song `is_favorite` or not. Make the star ⭐️ clickable from the Index page to toggle the value (both front and back end)
-- Use react-bootstrap
-- Use react-transition-group to transition between pages [Demo](https://reactrouter.com/web/example/animated-transitions)
-- write your own tests addtional tests for any new features you implement
-- add a 404 page
-- add functionality that when a user presses the delete button a confirmation appears first
+<h2> This App applies the C-R-U-D points.</h2>
+<p>HTTP Methods: HTTP methods are also called verbs. They are types of requests you can make to a server. The four most common ones are listed below:</p>
+<ul>
+      <li>GET /transactions: Returns a list of all transactions.</li>
+      <li>POST /transactions: Creates a new transaction.</li>
+      <li>GET /transactions/: id: Returns the transaction with the specified ID.</li>
+      <li>PUT /transactions/: id: Updates the transaction with the specified ID.</li>
+      <li>DELETE /transactions/: id: Deletes the transaction with the specified ID.</li>
+</ul>
+<h2>tuner-front-app-new: Frontend</h2>
+<p>
+  The REACT app uses the following installs and dependencies: axios, react, react-dom, react-router-dom in order to connect to the back end and the request(s) be viewed on the local host or deployed sites.
+<br>
+  <h2>lab-express-sql-seed-read: Backend</h2>
+The EXPRESS app (use git init -y) uses the following installs and dependencies: express, nodemon, dotenv, cors- also add a ‘VALIDATIONS” (checks apps) & “queries” (get, create, delete and update/put) folder. 
+This App requires a db folder that has a dbconfig.js, schema.sql (contains the table “INFORMATION”) and a seed.sql file (contains the files “VALUES”).
+Include a .env file and type in the PORT=30xx (edit the last digits accordingly). 
+Note: Make sure that the .env file has been correctly saved inside the main folder.  
+  <h2>contact info:</h2>
+<ul>
+    <li>💻  chue.judy@gmail.com</li>
+    <li>💟  https://www.linkedin.com/in/judy-chue-53697015/</li>
+    <li>💡  https://judychuepursuit.github.io/my-bio-judy-chue/</li>
+</ul>
+</p>
+<h2>Open to collaboration and/or work opportunities.</h2>
+<p>
+As a beginner Full-Stack web developer I am open to collaborating on work projects or possibly even a role in mind, that I would be a good fit for. You can also reach out and open an issue or submit a pull request. To this repository.</p>
